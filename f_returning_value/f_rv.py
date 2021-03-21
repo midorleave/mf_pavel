@@ -12,3 +12,4 @@ def divide(dividend, divisor):
 
 result = divide(15, 2) * 5
 print(result)
+
