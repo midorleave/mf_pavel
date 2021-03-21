@@ -8,7 +8,6 @@
 #print (5 < 6)
 
 
-"""
 import datetime
 
 x = datetime.datetime.today().weekday()
@@ -34,17 +33,16 @@ elif day_of_week == "friday":
     print("Happy Friyay!")
 else:
     print("Almost Friday!")
-"""
 
 
-"""
+
 series_watched = {"Lupin", "Alice in Borderland", "Sweet Home" }
 user_serie = input("Enter something you've seen recently: ")
 
 print(user_serie in series_watched)
-"""
 
-"""
+
+
 series_watched = {"Lupin", "Alice in Borderland", "Sweet Home"}
 user_serie = input("Enter something you've seen recently: ")
 
@@ -52,9 +50,9 @@ if user_serie in series_watched:
     print(f"I have watched {user_serie} too!")
 else:
     print("I haven't watched it yet.")
-"""
 
-"""
+
+
 number = 2 
 
 while True:
@@ -70,15 +68,15 @@ while True:
         print("You missed by one.")
     else:
         print("Sorry, wrong guess.")
-"""
 
-"""
+
+
 grades = [35, 67, 98, 100, 100]
 total = sum(grades)
 amount = len(grades)
 
 print(total / amount)
-"""
+
 
 friends = ["John", "Sabine", "Patrick", "Sam", "Kate"]
 starts_s = [friend for friend in friends if friend.startswith("S")] 
