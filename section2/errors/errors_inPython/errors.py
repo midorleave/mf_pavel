@@ -16,3 +16,5 @@ else:
     print(f"The average grade is {average}.")
 finally:
     print("Thank you!")
+
+    

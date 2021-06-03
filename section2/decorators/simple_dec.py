@@ -16,3 +16,4 @@ def make_secure(func):
 get_admin_password = make_secure(get_admin_password)
 
 print(get_admin_password())
+
