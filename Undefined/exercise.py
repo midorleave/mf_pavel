@@ -5,11 +5,11 @@ word = input("Slovo: ")
 def search(text, word):
 
    if word in text:
-      return "Word found" 
-   else: 
+      return "Word found"
+   else:
       return "Word not found"
-    
-    
+
+
 print(search(text, word))
 
 
@@ -92,7 +92,7 @@ print("Dictionary in descending order by value: ", sorted_d)
 
 
 
-from collections import defaultdict         
+from collections import defaultdict
 
 test_points1 = {1: 96, 2: 80, 3: 100}
 test_points2 = {3: 55, 5: 40, 6: 66}
@@ -162,11 +162,11 @@ dict3 = {**dict1, **dict2}
 print(dict3)
 
 
-sampleDict = { 
-   "class":{ 
-      "student":{ 
+sampleDict = {
+   "class":{
+      "student":{
          "name":"Mike",
-         "marks":{ 
+         "marks":{
             "physics":70,
             "history":80
          }
