@@ -1,5 +1,4 @@
  # title, release_date, watched
-
 import datetime
 import sqlite3
 
@@ -37,6 +36,7 @@ def get_movies(upcoming=False):
             cursor.execute(SELECT_ALL_MOVIES)
         return cursor.fetchall()
 
+
 def watch_movie(title):
     with connection:
         connection.execute(SET_MOVIE_WATCHED, (title, ))
@@ -46,4 +46,4 @@ def get_watched_movies():
     with connection:
         cursor = connection.cursor()
         cursor.execute(SELECT_WATCHED_MOVIES)
-        return cursor.fetchall
+        return cursor.fetchall()
